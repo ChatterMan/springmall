@@ -17,3 +17,5 @@ buildNumber.properties
 **/target/
 .idea
 **/.gitignore
+**/node_modules/
+**/.idea
