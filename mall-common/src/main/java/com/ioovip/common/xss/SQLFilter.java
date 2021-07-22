@@ -8,7 +8,7 @@
 
 package com.ioovip.common.xss;
 
-//import io.renren.common.exception.RRException;
+import com.ioovip.common.utils.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
@@ -41,7 +41,7 @@ public class SQLFilter {
         //判断是否包含非法字符
         for(String keyword : keywords){
             if(str.indexOf(keyword) != -1){
-//                throw new RRException("包含非法字符");
+                throw new RRException("包含非法字符");
             }
         }
 
