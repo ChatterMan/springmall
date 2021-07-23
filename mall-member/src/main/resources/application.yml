@@ -19,3 +19,6 @@ mybatis-plus:
 
 server:
   port: 8000
+
+service-url:
+  nacos-user-service: http://127.0.0.1
