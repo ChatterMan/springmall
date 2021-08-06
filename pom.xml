@@ -21,9 +21,9 @@
         <module>mall-product</module>
         <module>mall-ware</module>
         <module>mall-gateway</module>
-<!--        <module>renren-fast</module>-->
+        <module>renren-fast</module>
         <module>mall-common</module>
-<!--        <module>renren-generator</module>-->
+        <module>renren-generator</module>
     </modules>
 
 </project>
